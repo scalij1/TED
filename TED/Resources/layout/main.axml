@@ -18,6 +18,15 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/Hello" />
+        <TextView
+            android:text="- 4.0"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:textAlignment="center"
+            android:textColor="@color/accent"
+            android:textSize="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp" />
         <ImageButton
             android:src="@drawable/mais"
             android:layout_width="wrap_content"
