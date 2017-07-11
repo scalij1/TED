@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace TED
 {
-    [Activity(Label = "TED", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Consul", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : BaseActivity
     {
 
@@ -21,6 +21,13 @@ namespace TED
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            var menor = FindViewById<ImageButton>(Resource.Id.imageButton1);
+
+            menor.Click += (sender, args) =>
+            {
+                clickButton.Text = string.Format("{0} clicks!", count++);
+            };
 
             // Get our button from the layout resource,
             // and attach an event to it

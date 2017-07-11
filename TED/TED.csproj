@@ -98,6 +98,20 @@
     <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\CervejeiraVisor.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_speaker_phone_black_24dp.png" />
+    <AndroidResource Include="Resources\drawable\menos.png" />
+    <AndroidResource Include="Resources\drawable\mais.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

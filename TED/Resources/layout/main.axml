@@ -11,12 +11,27 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/main_content"
-        android:layout_below="@id/toolbar">
+        android:layout_below="@id/toolbar"
+        android:background="@drawable/cervejeiravisor">
         <Button
             android:id="@+id/my_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/Hello" />
+        <ImageButton
+            android:src="@drawable/mais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="280dp"
+            android:id="@+id/imageButton2" />
+        <ImageButton
+            android:src="@drawable/menos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageButton1"
+            android:layout_marginLeft="25dp" />
         <Button
             android:id="@+id/nav_button"
             android:layout_width="fill_parent"
